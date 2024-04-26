@@ -533,7 +533,7 @@
 
 
   .col5-content-1 {
-    width: 613px;
+    width: 100%;
     height: 54px;
 
     font-family: Helvetica;
@@ -793,9 +793,11 @@
     display: none;
   }
 
-  .navbar {
+  .navbar-mobile {
     margin-top: 16px;
-    margin-left: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 
 
